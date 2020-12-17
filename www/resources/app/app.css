@@ -78,7 +78,7 @@
     text-rendering: auto;
 }
 /*.color-theme-custom {
-    --f7-theme-color: #E3072B;
+    --f7-theme-color: #6A4186;
     --f7-theme-color-rgb: 227,7,43;
     --f7-theme-color-shade: #92051b;
     --f7-theme-color-tint: #e4082a;
@@ -116,10 +116,10 @@
 }
 
 .bg-color-custom{
-    background-color: #E3072B!important;
+    background-color: #6A4186!important;
 }
 .text-color-custom{
-    color: #E3072B!important;
+    color: #6A4186!important;
 }
 .position-relative{
     position: relative;
@@ -134,7 +134,7 @@
     font-weight: bold;
 }
 /*.color-theme-custom .navbar{
-    background: #E3072B;
+    background: #6A4186;
 }*/
 .toolbar-bottom.toolbar-size-3.toolbar-size-4{
     height: calc(var(--f7-toolbar-height)*2 + var(--f7-safe-area-bottom));
@@ -162,12 +162,12 @@
     --f7-page-toolbar-bottom-offset: calc(var(--f7-toolbar-height)*2);
 }
 .color-custom {
-    --f7-theme-color: #E3072B;
-    --f7-theme-color-rgb: 227,7,43;
-    --f7-theme-color-shade: #b60622;
-    --f7-theme-color-tint: #f82c4d;
+    --f7-theme-color: #6A4186;
+    --f7-theme-color-rgb: 106,65,134;
+    --f7-theme-color-shade: #55346b;
+    --f7-theme-color-tint: #8451a8;
 
-    --f7-button-pressed-bg-color: #b60622;
+    --f7-button-pressed-bg-color: #55346b;
 }
 
 .color-darkgray {
@@ -204,7 +204,7 @@
     --f7-button-pressed-bg-color: #0080a9;
 }
 .color-watch{
-    --f7-theme-color: #E3072B;
+    --f7-theme-color: #6A4186;
     --f7-theme-color-rgb: 227,7,43;
     --f7-theme-color-shade: #b60622;
     --f7-theme-color-tint: #f82c4d;
@@ -502,9 +502,10 @@
 /*PANEL LEFT*/
 
 .bg-header{
-    background-image: url('../images/bg.png');
+    background-color: #fff;
+    /*background-image: url('../images/bg.png');*/
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: bottom center;
     background-size: cover;
     position: relative;
 }
@@ -532,7 +533,7 @@
     /*LOGIN SCREEN*/
 .login-screen-content{
     --f7-list-bg-color: trasparent;
-    background: url('../images/bg.png') no-repeat center center;
+    background: url('../images/bg.png') no-repeat bottom center;
     background-size: cover;
     height: 100%!important;
 }
@@ -656,6 +657,24 @@
 }
 .marker-data-table{
 
+}
+.hairline-bottom{
+    position: relative;
+}
+.hairline-bottom:after{
+    content: '';
+    position: absolute;
+    background-color: var(--f7-list-item-border-color);
+    display: block;
+    z-index: 15;
+    top: auto;
+    right: auto;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    transform-origin: 50% 100%;
+    transform: scaleY(calc(1 / var(--f7-device-pixel-ratio)));
 }
 .marker-data-table td{
     border-bottom: 1px solid #E6E6E6;

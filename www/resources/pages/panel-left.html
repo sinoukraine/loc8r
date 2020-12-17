@@ -23,14 +23,14 @@
                 </div>
             </div>
             <div class="page-content">
-                <div class="panel-header bg-custom bg-header">
-                    <span class="app-version text-color-white">{{AppVersion}}</span>
+                <div class="panel-header bg-custom bg-header hairline-bottom">
+                    <span class="app-version text-color-lightgray">{{AppVersion}}</span>
                     <div class="block no-margin padding">
                         <div class="logo">
                             <img src="{{Logo}}" alt="">
                         </div>
-                        <p class="text-color-white no-margin-bottom">{{FirstName}} {{LastName}}</p>
-                        <p class="text-color-white no-margin">{{Email}}</p>
+                        <p class="text-color-black no-margin-bottom">{{FirstName}} {{LastName}}</p>
+                        <p class="text-color-gray no-margin">{{Email}}</p>
                     </div>
                 </div>
                 <div class="list no-hairlines no-hairlines-between no-chevron margin-top-half">
@@ -176,11 +176,11 @@
                 DealerName: self.$app.name,
                 ShowPayment: true,
             };
-            if (userInfo.CountryCode && userInfo.CountryCode.toLowerCase() === 'aus') {
+            /*if (userInfo.CountryCode && userInfo.CountryCode.toLowerCase() === 'aus') {
                 ret.ToolbarAdditionaClass += ' toolbar-size-3';
                 ret.ShowButtonCall = true;
                 ret.ShowButtonReferFriend = true;
-            }
+            }*/
             if(self.$app.device.ios && !additionalFlags.elemRc){
             //if(!additionalFlags.elemRc){
                 ret.ShowPayment = false;

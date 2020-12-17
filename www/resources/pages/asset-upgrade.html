@@ -16,10 +16,10 @@
                     <div class="right">
 
                     </div>
-                    
+
                 </div>
-            </div>          
-        
+            </div>
+
             <!-- Scrollable page content-->
             <div class="page-content">
 
@@ -33,7 +33,7 @@
                                 <p class="size-16 margin-top-half">{{Price}}</p>
                             </div>
                             <div class="card-footer">
-                                <a href="{{Link}}" target="_blank" class="width-100 button button-fill color-green external elevation-2">{{@global.LANGUAGE.COM_MSG073}}</a>
+                                <a href="{{Link}}" target="_blank" class="width-100 button button-fill color-custom external elevation-2">{{@global.LANGUAGE.COM_MSG073}}</a>
                             </div>
                         </div>
                     </div>
@@ -76,7 +76,7 @@
                     Link: API_URL.URL_UPGRADE + 'upgrade-to-live.php?ServiceProfile=5f87b4fc-d25b-4&' + self.$app.utils.serializeObject(params) ,
                 },
                 {
-                    BgColor: 'bg-color-green',
+                    BgColor: 'bg-color-custom',
                     Period: LANGUAGE.COM_MSG070,
                     Price: '$ '+'19.00 ' + LANGUAGE.COM_MSG072,
                     Link: API_URL.URL_UPGRADE + 'upgrade-to-live.php?ServiceProfile=33ENPEYR38SRC&' + self.$app.utils.serializeObject(params),
@@ -89,7 +89,7 @@
 
         },
         on: {
-            pageInit: function (e, page) { 
+            pageInit: function (e, page) {
                 let self = this;
 
 
