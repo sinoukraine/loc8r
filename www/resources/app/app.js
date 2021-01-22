@@ -52,7 +52,7 @@ API_URL.URL_ROUTE = "https://www.google.com/maps/dir/?api=1&destination={0},{1}"
 API_URL.URL_ROUTE_IOS = "maps://maps.apple.com/maps?daddr={0},{1}";
 API_URL.URL_SUPPORT = "https://support.quiktrak.eu/";
 API_URL.URL_REPORT_THEFT = "https://forms.quiktrak.com.au/report-theft/";
-API_URL.URL_UPGRADE = "https://app.quikprotect.co/activation2/";
+API_URL.URL_UPGRADE = "https://activation.autoprotect.quiktrak.eu/";
 API_URL.REFERRAL_PROGRAM = "https://forms.quiktrak.com.au/referral-program/";
 API_URL.URL_USER_GUIDE = "https://helper.quiktrak.com.au/manuals/autoprotect/autoprotect-app.pdf";
 
@@ -107,12 +107,12 @@ const $$ = Dom7;
 
 let htmlTemplate = $$('script#loginScreenTemplate').html();
 let compiledTemplate = Template7.compile(htmlTemplate);
-$$('#app').append(compiledTemplate());
+$$('#app').append(compiledTemplate({NewUserUrl: API_URL.URL_UPGRADE+'register?SolutionType=QProtect&ServiceProfile=5f87b4fc-d25b-4'}));
 
 // Init App
 const app = new Framework7({
     id: 'com.autoprotect.app',
-    name: 'Autoprotect',
+    name: 'AutoProtect',
     root: '#app',
     theme: Framework7.device.ios ? 'ios' : 'md',
     view: {

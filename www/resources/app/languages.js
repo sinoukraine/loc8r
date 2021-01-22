@@ -271,11 +271,13 @@ window.LanguagePackages= {
 		"MENU_MSG09": "Refer a Friend",
 		"MENU_MSG10": "Contacts",
 		"MENU_MSG11": "User Guide",
+		"MENU_MSG12": "Add New Device",
 
 		"LOGIN_MSG00": "Login Name / Email",
 		"LOGIN_MSG01": "Password",
 		"LOGIN_MSG02": "Sign In",
 		"LOGIN_MSG03": "Forgot Password?",
+		"LOGIN_MSG04": "New User Activation",
 
 		"PASSWORD_FORGOT_MSG00": "Please, enter your registered E-mail address",
 		"PASSWORD_FORGOT_MSG01": "Please, enter E-mail",
