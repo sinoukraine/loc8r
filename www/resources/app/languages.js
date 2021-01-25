@@ -277,7 +277,7 @@ window.LanguagePackages= {
 		"LOGIN_MSG01": "Password",
 		"LOGIN_MSG02": "Sign In",
 		"LOGIN_MSG03": "Forgot Password?",
-		"LOGIN_MSG04": "New User Activation",
+		"LOGIN_MSG04": "Device Activation",
 
 		"PASSWORD_FORGOT_MSG00": "Please, enter your registered E-mail address",
 		"PASSWORD_FORGOT_MSG01": "Please, enter E-mail",

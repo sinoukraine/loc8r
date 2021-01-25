@@ -107,7 +107,7 @@ const $$ = Dom7;
 
 let htmlTemplate = $$('script#loginScreenTemplate').html();
 let compiledTemplate = Template7.compile(htmlTemplate);
-$$('#app').append(compiledTemplate({NewUserUrl: API_URL.URL_UPGRADE+'register?SolutionType=QProtect&ServiceProfile=5f87b4fc-d25b-4'}));
+$$('#app').append(compiledTemplate({NewUserUrl: API_URL.URL_UPGRADE+'?SolutionType=QProtect&ServiceProfile=5f87b4fc-d25b-4'}));
 
 // Init App
 const app = new Framework7({
