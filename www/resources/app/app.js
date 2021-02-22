@@ -54,7 +54,7 @@ API_URL.URL_SUPPORT = "https://support.quiktrak.eu/";
 API_URL.URL_REPORT_THEFT = "https://forms.quiktrak.com.au/report-theft/";
 API_URL.URL_UPGRADE = "https://activation.autoprotect.quiktrak.eu/";
 API_URL.REFERRAL_PROGRAM = "https://forms.quiktrak.com.au/referral-program/";
-API_URL.URL_USER_GUIDE = "https://helper.quiktrak.com.au/manuals/autoprotect/autoprotect-app.pdf";
+API_URL.URL_USER_GUIDE = "https://helper.quiktrak.com.au/manuals/autoprotect/loc8r-app.pdf";
 
 API_URL.GET_BALANCE = API_DOMIAN3 + "Balance";
 API_URL.EDIT_ACCOUNT = API_DOMIAN3 + "AccountEdit";
@@ -111,8 +111,8 @@ $$('#app').append(compiledTemplate({NewUserUrl: API_URL.URL_UPGRADE+'?SolutionTy
 
 // Init App
 const app = new Framework7({
-    id: 'com.autoprotect.app',
-    name: 'AutoProtect',
+    id: 'com.loc8r.app',
+    name: 'Loc8r',
     root: '#app',
     theme: Framework7.device.ios ? 'ios' : 'md',
     view: {
@@ -136,7 +136,7 @@ const app = new Framework7({
             logo: 'resources/images/logo.png',
             logoBlack: 'resources/images/logo.png',
             logoModal: 'resources/images/logo.png',
-            logoExternal: 'https://helper.quiktrak.com.au/logo/autoprotect/logo.png',
+            logoExternal: 'https://helper.quiktrak.com.au/logo/loc8r/logo.png',
             MaxMapPopupWidth: maxPopupWidth,
             PolygonCustomization: {
                 color: '#AA5959',
@@ -180,7 +180,7 @@ const app = new Framework7({
                 },
             },
             AppDetails: {
-                name: 'autoprotect-app',
+                name: 'loc8r-app',
                 code: 45,
                 supportCode: 45,
                 appId: '',

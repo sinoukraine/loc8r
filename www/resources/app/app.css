@@ -514,6 +514,7 @@
     }
         .bg-header .logo img{
             width: 100%;
+            max-width: 120px;
         }
 .app-version{
     position: absolute;
@@ -542,7 +543,7 @@
         margin-bottom: 48px;
     }
         .login-screen-content .logo img{
-            max-width: 320px;
+            max-width: 210px;
             width:100%;
         }
     .login-screen-content .list input{
@@ -600,7 +601,7 @@
     text-align: center;
 }
 .custom-modal-logo{
-    max-width: 160px;
+    max-width: 120px;
     width: 100%;
 }
 .custom-modal-title{
