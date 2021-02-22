@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>1097482483564-hr3menf2nfldq73l92anhmequhqpjcch.apps.googleusercontent.com</string>
+	<string>1097482483564-f7u76ihrgko8uuopan12ttft0ht0ka41.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1097482483564-hr3menf2nfldq73l92anhmequhqpjcch</string>
+	<string>com.googleusercontent.apps.1097482483564-f7u76ihrgko8uuopan12ttft0ht0ka41</string>
 	<key>API_KEY</key>
 	<string>AIzaSyBIAv1FSX73w5zpZNX3mXeUl-DkyN6r7EA</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.autoprotect.app</string>
+	<string>com.loc8r.app</string>
 	<key>PROJECT_ID</key>
 	<string>quiktrak-1a820</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1097482483564:ios:503147b3381977fb8d2549</string>
+	<string>1:1097482483564:ios:f2d3ffcc6320a1198d2549</string>
 	<key>DATABASE_URL</key>
 	<string>https://quiktrak-1a820.firebaseio.com</string>
 </dict>

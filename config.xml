@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget 
-  version="1.0.11"
-  android-versionCode="4"
-  ios-CFBundleVersion="4"
-  id="com.autoprotect.app"
+  version="1.0.1"
+  android-versionCode="1"
+  ios-CFBundleVersion="1"
+  id="com.loc8r.app"
   xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android" defaultlocale="en-US" >
   <!-- id="com.quiktrak.plus" -->
-    <name>AutoProtect</name>
+    <name>Loc8r</name>
     <description>
-       Autoprotect GPS tracker
+       Loc8r GPS tracker
     </description>
     <author email="support@sinopacific.co" href="http://sinopacific.co">
        Sinopacific Co Limited
